@@ -1,0 +1,13 @@
+:host {
+    h2 {
+        background: red;
+    }
+}
+// pega pela class .theme-dark
+:host-context(.theme-dark) {
+    h2 {
+        background: #000;
+        color: #fff;
+        border: 8px solid blue;
+    }
+}
